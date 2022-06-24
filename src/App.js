@@ -1,9 +1,6 @@
+import { ThemeProvider } from "./context/ThemeContext"
 function App() {
-  return (
-    <div className="">
-      <p className="text-3xl font-bold ">Hello</p>
-    </div>
-  )
+  return <ThemeProvider></ThemeProvider>
 }
 
 export default App
