@@ -11,24 +11,27 @@ const Navbar = () => {
   }
 
   return (
-    <div className="rounded-div flex items-center justify-between h-20 font-bold">
+    <div className="rounded-div flex items-center justify-between h-24 font-bold">
       <Link to="/">
-        <h1 className="text-3xl">Cryptobase</h1>
+        <h1 className="text-3xl">JOELOFFCOIN</h1>
       </Link>
       <div className="hidden md:block">
-        <ThemeToggle />
+        <p className="text-2xl">Cryptocurrency Prices by Market Caps</p>
       </div>
       <div className="hidden md:block">
         <Link to="/signin" className="p-4 hover:text-accent">
           Sign In
         </Link>
+
         <Link
           to="/signin"
           className="bg-button text-btnText px-5 py-2 ml-2 rounded-2xl shadow-lg hover:shadow-2xl"
         >
           Sign Up
         </Link>
+        <ThemeToggle />
       </div>
+
       {/* Menu Icon */}
       <div onClick={handleNav} className="block md:hidden cursor-pointer z-10">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}

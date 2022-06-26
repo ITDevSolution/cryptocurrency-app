@@ -9,19 +9,19 @@ const ThemeToggle = () => {
     <div>
       {theme === "dark" ? (
         <div
-          className="flex items-center cursor-pointer"
+          className="flex items-center cursor-pointer pt-5"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           <HiSun className="text-primary text-2xl mr-2" />
-          Ligh Mode
+          <p className="font-normal text-sm ">Light Mode</p>
         </div>
       ) : (
         <div
-          className="flex items-center cursor-pointer"
+          className="flex items-center cursor-pointer pt-5"
           onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         >
           <HiMoon className="text-primary text-2xl mr-2" />
-          Dark Mode
+          <p className="font-normal">Dark Mode</p>
         </div>
       )}
     </div>
