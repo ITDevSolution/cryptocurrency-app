@@ -16,7 +16,9 @@ const Navbar = () => {
         <h1 className="text-3xl">JOELOFFCOIN</h1>
       </Link>
       <div className="hidden md:block">
-        <p className="text-2xl">Cryptocurrency Prices by Market Caps</p>
+        <p className="lg:text-2xl md:text-lg ">
+          Cryptocurrency Prices by Market Caps
+        </p>
       </div>
       <div className="hidden md:block">
         <Link to="/signin" className="p-4 hover:text-accent">
