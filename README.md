@@ -14,3 +14,7 @@ This project was bootstrapped shows the ranking of the best market caps coins.
     </div>
     <img src="preview/monitor.gif" alt="preview joeloffcoins on an IPHONE PRO MAX" width="55%" />
 </div>
+
+# Documentation
+
+- https://www.coingecko.com/

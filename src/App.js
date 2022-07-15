@@ -32,7 +32,7 @@ function App() {
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/account" element={<Account />} />
-        <Route path="/coin/:conId" element={<CoinPage />}>
+        <Route path="/coin/:coinId" element={<CoinPage />}>
           <Route path=":coinId" />
         </Route>
       </Routes>
